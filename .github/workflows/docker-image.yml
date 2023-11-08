@@ -14,7 +14,6 @@ jobs:
 
     steps:
       - name: Build & push Docker image
-        uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: ksh958/my-github-docker-python
           tags: latest
